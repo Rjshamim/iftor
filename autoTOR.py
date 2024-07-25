@@ -15,7 +15,7 @@ except subprocess.CalledProcessError:
     print('[+] pip3 not installed')
     subprocess.check_output('sudo apt update',shell=True)
     subprocess.check_output('sudo apt install python3-pip -y', shell=True)
-    print('[!] pip3 installed succesfully')
+    print('[!] pip3 installed succesfully from IEHF')
 
 
 
@@ -23,19 +23,19 @@ try:
 
     import requests
 except Exception:
-    print('[+] python3 requests is not installed')
+    print('[+] python3 requests is not installed from IEHF')
     os.system('pip3 install requests')
     os.system('pip3 install requests[socks]')
-    print('[!] python3 requests is installed ')
+    print('[!] python3 requests is installed from IEHF')
 try:
 
     check_tor = subprocess.check_output('which tor', shell=True)
 except subprocess.CalledProcessError:
 
-    print('[+] tor is not installed !')
+    print('[+] tor is not installed from IEHF!')
     subprocess.check_output('sudo apt update',shell=True)
     subprocess.check_output('sudo apt install tor -y',shell=True)
-    print('[!] tor is installed succesfully ')
+    print('[!] tor is installed succesfully from IEHF')
 
 os.system("clear")
 def ma_ip():
@@ -45,7 +45,7 @@ def ma_ip():
 
 def change():
     os.system("service tor reload")
-    print ('[+] Your IP has been Changed to : '+str(ma_ip()))
+    print ('[+] Your IP has been Changed to from IEHF: '+str(ma_ip()))
 
 print('''\033[1;32;40m \n
                 _          _______
@@ -55,9 +55,9 @@ print('''\033[1;32;40m \n
   / ____ \ |_| | || (_) |    | | (_) | |
  /_/    \_\__,_|\__\___/     |_|\___/|_|
                 V 2.1
-from mrFD
+from IEHF
 ''')
-print("\033[1;40;31m http://facebook.com/ninja.hackerz.kurdish/\n")
+print("\033[1;40;31m iehf.publicvm.com")
 
 os.system("service tor start")
 
@@ -65,10 +65,10 @@ os.system("service tor start")
 
 
 time.sleep(3)
-print("\033[1;32;40m change your  SOCKES to 127.0.0.1:9050 \n")
+print("\033[1;32;40m from IEHF change your  SOCKES to 127.0.0.1:9050 \n")
 os.system("service tor start")
 x = input("[+] time to change Ip in Sec [type=60] >> ")
-lin = input("[+] how many time do you want to change your ip [type=1000]for infinte ip change type [0] >>")
+lin = input("[+] how many time do you want to change your ip from IEHF[type=1000]for infinte ip change type [0] >>")
 if int(lin) ==int(0):
 
 	while True:
@@ -77,7 +77,7 @@ if int(lin) ==int(0):
 			change()
 		except KeyboardInterrupt:
 
-		 	print('\nauto tor is closed ')
+		 	print('\nauto tor is closed from IEHF')
 		 	quit()
 
 else:
