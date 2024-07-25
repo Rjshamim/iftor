@@ -1,4 +1,4 @@
-# Auto_Tor_IP_changer V 2.1
+# IEHF Auto_Tor_IP_changer V 2.1
 change your Ip Address automatically  This tool based on tor project
 
 
@@ -16,7 +16,7 @@ how to install this tools :
 
 3 : python3 install.py
 
-4 : interminal type ( aut ) any where you want
+4 : interminal type ( iftor ) any where you want
   
 5 : type time to change IP
 
@@ -29,5 +29,5 @@ how to install this tools :
 7 : BOOOOOOMM 
 
 ============
-http://facebook.com/rjshamim
+http://youtube.com/@iehf4343
 iehf.publicvm.com
