@@ -10,7 +10,8 @@ how to install this tools :
   pip3 install requests[socks]
   or just run autoTor it will install everything
 
-1: git clone https://github.com/Rjshamim/iftor.git
+1: git clone https://github.com/Rjshamim/iftor.git  
+
 2 : cd iftor
 
 3 : python3 install.py
